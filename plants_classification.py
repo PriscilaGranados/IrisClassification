@@ -19,7 +19,7 @@ def separation(data):
         X=np.array(iris.drop(columns=['Species','SepalLengthCm','SepalWidthCm']))
     return X
 
-
+#SE UTILIZA EL ALGORITMO SELECCIONADO
 def superalgorithm(alg):
     if alg==1:
         algorithm=LogisticRegression()
