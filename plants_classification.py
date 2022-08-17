@@ -1,4 +1,3 @@
-from matplotlib import markers
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -10,7 +9,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import confusion_matrix
 
-
+#SEPARA LOS DATOS QUE VAMOS A UTILIZAR
 def separation(data):
     if data==1:
         X=np.array(iris.drop(columns='Species'))
