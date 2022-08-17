@@ -1,3 +1,4 @@
+#%%
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -50,7 +51,7 @@ def superalgorithm(alg):
 
 
 #Dataset info
-iris=pd.read_csv('Iris.csv')
+iris=pd.read_csv('iris.csv')
 iris=iris.drop('Id',axis=1)
 print('\nCabecera del dataset:')
 print(iris.head(3))
@@ -102,3 +103,4 @@ What algorithm would do you like use?
     3- KNeighbors Classifier
     4- Decision Tree Classifier"""))
 superalgorithm(alg)
+# %%
